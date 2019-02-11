@@ -1,0 +1,18 @@
+{
+  "phpcs.standard": "WordPress",
+  "phpcs.ignorePatterns": [
+    "*/core/*",
+    "*/profiles/*",
+    "*/modules/contrib/*",
+    "*/themes/contrib/*",
+    "*/tmp/*",
+		"*/vendor/*",
+		"*/wp-admin/*",
+		"*/wp-includes/*",
+		"*/wp-*.php"
+  ],
+  "phpcbf.standard": "WordPress",
+  "editor.insertSpaces": false,
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false
+}
